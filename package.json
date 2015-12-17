@@ -1,0 +1,31 @@
+{
+  "name": "will-they-sue",
+  "version": "1.0.0",
+  "description": "list the license of all your deps",
+  "bin": {
+    "will-they-sue": "./cli.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "license",
+    "legal"
+  ],
+  "author": "Moshe Kolodny",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.1.1",
+    "glob": "^6.0.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kolodny/will-they-sue.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kolodny/will-they-sue/issues"
+  },
+  "homepage": "https://github.com/kolodny/will-they-sue#readme"
+}
